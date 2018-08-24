@@ -1,17 +1,14 @@
+#!/usr/bin/python
 # coding=utf-8
 
 # 定时调度工具   APScheduler是一个Python定时任务框架
-
 from apscheduler.schedulers.blocking import BlockingScheduler
 from datetime import datetime
 from OtherClass import *
 
-
-
 #本类的方法
 def my_job01():
     print('Tick! The time is: %s' % datetime.now())
-
 
 if __name__ == '__main__':
     scheduler = BlockingScheduler()
