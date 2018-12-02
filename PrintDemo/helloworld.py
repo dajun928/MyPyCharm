@@ -16,9 +16,9 @@ def get_week_day(i):
   return week_day_dict[i]
 
 for i in range(1,31):
-    d=(i+4)%7
+    d=(i+2)%7
     print '-------------------------------------------------------------->'
-    print u"2018年9月"+str(i)+u"日"+"  "+get_week_day(d)
+    print u"2018年11月"+str(i)+u"日"+"  "+get_week_day(d)
     print '  '
 
 
