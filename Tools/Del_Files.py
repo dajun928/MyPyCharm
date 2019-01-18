@@ -101,6 +101,7 @@ if __name__ == '__main__':
     Op = Deleter()
     #删除 D:\test 路径下的 redis文件夹里面的所有文件
     path=u'D:\\test\\redis\\'
-    # Op.DeleteFolder(path)
+    # path=u'\\MI 6\\内部存储设备\\DCIM\\Camera\\'
+    Op.DeleteFolder(path)
     pass
 

@@ -12,7 +12,7 @@ def shutdown(seconds):
     print str(seconds) + u' 秒后将会关机...'
     time.sleep(seconds)
     print u'关机啦。。。'
-    os.system('shutdown -s -f -t 1')
+    # os.system('shutdown -s -f -t 1')
 
 def main():
     hour = input(u'延迟关机小时数：')
