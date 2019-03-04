@@ -1,5 +1,11 @@
-# coding: utf-8
-
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+"""
+@version : 2.7.14
+@file : auto_shutdown.py
+@time : 2019/03/04 23:43:07
+@func : 工具脚本-定时关机
+"""
 import sys
 import os
 import time
